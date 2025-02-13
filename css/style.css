@@ -39,3 +39,7 @@ img:hover{
         grid-column: 4/ span 1;
     }
 }
+
+@media (prefers-reduced-motion) {
+    transition: none;
+}
